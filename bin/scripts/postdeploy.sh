@@ -8,7 +8,7 @@ if [ ! -z "$HEROKU_APP_NAME" ]; then
 	wp_url="$(echo $HEROKU_APP_NAME).herokuapp.com"
 	wp_title="WordPress Heroku"
 	wp_user="admin"
-	wp_password=admin12345
+	wp_password="admin12345"
 	wp_email="github@philippheuer.me"
 
 	# wordpress: install
