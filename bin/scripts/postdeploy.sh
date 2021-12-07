@@ -9,7 +9,7 @@ if [ ! -z "$HEROKU_APP_NAME" ]; then
 	wp_title="WordPress Heroku"
 	wp_user="admin"
 	wp_password="admin12345"
-	wp_email="github@philippheuer.me"
+	wp_email="contarbrasil@gmail.com"
 
 	# wordpress: install
 	vendor/bin/wp core install --url="$wp_url" --title="$wp_title" --admin_user="$wp_user" --admin_password="$wp_password" --admin_email="$wp_email"
